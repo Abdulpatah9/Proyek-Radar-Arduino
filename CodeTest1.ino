@@ -47,11 +47,9 @@ void bacaUltrasonic() {
   Serial.println(" cm");
 
   if (jarak < 25) {
-    Serial.println("TERDETEKSI ADANYA OBJEK!!!");
+    Serial.println("TERDETEKSI ADANYA HANTU!!!");
     digitalWrite(buzzer, HIGH);
-    tone(buzzer, 1000);
   } else {
     digitalWrite(buzzer, LOW);
-    noTone(buzzer);
   }
 }
