@@ -1,7 +1,7 @@
 {
   "version": 1,
   "author": "A.patah",
-  "editor": "wokwi",
+  "editor": "Abdul Patah",
   "parts": [
     { "type": "wokwi-arduino-uno", "id": "uno", "top": -9, "left": 249, "attrs": {} },
     {
